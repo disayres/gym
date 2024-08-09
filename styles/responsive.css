@@ -1,0 +1,265 @@
+@media screen and (max-width:430px) {
+    .category__title {
+        font-size: 3rem !important;
+    }
+
+    .step__caption {
+        font-size: 1.4rem;
+    }
+
+    .step-wrapper__caption {
+        font-size: 1.4rem;
+    }
+
+    .location-content {
+        padding: 4rem 0;
+    }
+
+    .location-content__main-title {
+        font-size: 2rem;
+    }
+
+    .profesional__title {
+        font-size: 2rem;
+    }
+    .last-footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-lines {
+        display: block;
+    }
+
+    .home__title {
+        font-size: 5rem !important;
+    }
+
+    .socials-wrapper {
+        flex-direction: column;
+    }
+
+    .category__title {
+        font-size: 4rem;
+    }
+
+    .Progress-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .Progress__title {
+        font-size: 4rem;
+    }
+
+    .Progress__text {
+        font-size: 1.5rem;
+    }
+
+    .progress__shape {
+        left: auto;
+        width: 150rem;
+        transform: rotate(-43deg) translateX(0);
+    }
+
+    .package {
+        width: 100% !important;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .pricing__title {
+        font-size: 4rem;
+    }
+
+    .flexable {
+        flex-direction: column;
+    }
+
+    .article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .article__caption {
+        max-width: 100% !important;
+    }
+
+    .profesional__title {
+        font-size: 4rem;
+    }
+
+    .profesional-shape {
+        left: auto;
+        transform: translateX(150px) rotate(-45deg);
+        width: 120rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .nav__links {
+        display: none;
+    }
+
+    .menu {
+        margin-right: 0;
+    }
+
+    .home__title {
+        font-size: 6rem;
+    }
+
+    .home-form {
+        flex-direction: column;
+    }
+
+    .home-form__button {
+        width: 65%;
+    }
+
+    .package {
+        max-height: 55rem;
+    }
+
+    .mt-2r {
+        margin-top: 2rem;
+    }
+
+    .package-picture {
+        height: 30%;
+    }
+
+    .package-content {
+        height: 70%;
+    }
+
+    .step-holder {
+        flex-direction: column;
+    }
+
+    .step__title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .step__caption {
+        text-align: center;
+    }
+
+    .step-wrapper {
+        justify-content: center;
+    }
+
+    .step__link {
+        width: 100%;
+        text-align: center;
+    }
+
+    .reverser {
+        flex-direction: column-reverse;
+    }
+
+    .location-content__main {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .faq__title {
+        font-size: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .footer-content-left-wrapper {
+        justify-content: center;
+    }
+    .footer__caption {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .Progress__captions {
+        flex-direction: column;
+    }
+
+    .package {
+        width: 22rem;
+        height: 65rem;
+    }
+
+    .package__type {
+        font-size: 2.5rem;
+    }
+
+    .package__price {
+        font-size: 4.5rem;
+    }
+
+    .package-list__item {
+        font-size: 1rem !important;
+        border: none;
+        padding-top: 0;
+    }
+
+    .package-list__item svg {
+        width: 1.5rem;
+    }
+
+    .package__link {
+        padding: 1rem 0;
+        margin-top: 1rem;
+    }
+
+    .step__title {
+        font-size: 3rem;
+        max-width: 25rem;
+    }
+
+    .article__caption {
+        max-width: 20rem;
+    }
+
+    .article__title {
+        font-size: 2rem !important;
+    }
+
+    .flexable {
+        flex-wrap: wrap;
+    }
+
+    .footer-list {
+        margin-right: 3rem;
+    }
+
+    .footer__subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .package__text {
+        font-size: 1.4rem;
+    }
+
+    .package-list__item {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .package-content {
+        padding: 2rem;
+    }
+}
